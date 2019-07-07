@@ -1,0 +1,262 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.container {
+    padding:20px 30px;
+    text-align:center;
+    float:left;
+	width: 90%;
+	margin: 20px 30px ;
+	background: #ffffffb3;
+    border-radius: 15px;
+}
+
+.top-right{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+ul>li{
+    display: inline-block;
+}
+
+.table{
+    margin: 0px 15px;
+    width: 100%;
+    border: 1px solid skyblue;
+    border-radius: 30px;
+    
+}
+
+.table td:first-of-type{
+    width: 180px;
+}
+
+.table tr{
+    line-height: 32px;
+    border-bottom: 1px solid skyblue;
+    background: rgb(233, 237, 240)
+}
+
+
+.table tr:first-of-type{
+    background: rgb(213, 232, 249);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main{
+    width: 60%;
+    margin:auto;
+}
+
+header{
+    height: 227px;
+    background: rgb(41, 191, 199);
+    color: white;
+    font-size: 30px;
+}
+
+img{ 
+    width: 11%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    position: relative;
+    right: -312px;
+    top: -133px;
+    position: relative;
+    right: -209px;
+    top: -96px;
+
+}
+
+.menu{
+    height: 60px;
+    background: rgb(235, 244, 116);
+}
+
+div ul{
+    width: 52%;
+    margin: auto;
+    line-height: 55px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding-right: 20px;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(235, 244, 116);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    width: 25%;
+    height: 44px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(226, 243, 85);
+    cursor: pointer;
+}
+
+.container h1{
+    font-size: 30px;
+    padding-bottom: 23px;
+}
+
+.login button{
+width: 250px !important;
+height: 70px;
+}
+
+header p{
+    display: inline-block;
+    position: relative;
+    bottom: 79px;
+    right: -217px;
+
+}
+
+.loginForm input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.loginForm input[type=text], .loginForm input[type=password]{
+    width: 330px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 20px;
+    outline: none;
+    border: none;   
+}
+
+.loginForm input[type='submit']{
+    width: 250px;
+}
+
+.loginForm {
+    background: azure;
+    padding: 40px;
+}
+
+.error{
+    margin: 50px;
+    font-size: 27px;
+}
+
+.info, infoCenter{
+    height: 55px;
+    font-size: 23px;
+    background: azure;
+    line-height: 46px;
+}
+
+.infoCenter{
+    width: 26%;
+    margin: auto;
+}
+
+
+.add{
+    text-indent: 100px;
+}
+
+.file-input-wrapper {
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+  }
+  .file-input-wrapper > input[type="file"] {
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+  }
+  .file-input-wrapper > .btn-file-input {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+  }
+
+  .smaller input:first-of-type{
+    width: 200px !important;
+    
+  }
+
+  .smaller input{
+    width: 130px; 
+    border-radius: 20px;
+    margin: 10px;
+  }
+
+  form.smaller{
+      width: 85%;
+      margin: auto;
+  }
+
+  textarea{
+    display: block;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+  }
+
+  .bigger{
+    width: 200px;
+    height: 60px;
+    margin-left: 600px;
+  }
+
+  .form_style{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 16px;
+    background: #F7F7F7;
+    border: 1px solid rgb(187, 201, 198);
+    border-radius: 10px;
+}
+
+.form_style h1{
+	background: skyblue;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-radius: 10px;
+}
+
+.form_style input, .form_style button{
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 20px;
+    height: 25px;
+    outline: none;
+    border:none;
+    font-size: 15px;
+}
+
+input[type="radio"]{
+    width: 20px;
+}
