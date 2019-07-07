@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  
+    <title>Вход преподаватели</title>
+</head>
+<body>
+
+        <header>
+                <img src="pictures/logo.png" alt="logo" id='logo'>
+                <h1>Система за управление на проекти</h1>
+                <p>Вход за преподаватели</p>
+            </header>
+    <button class="top-right" onclick="window.location.href='index.html'">Назад</button>
+    <div class="container">
+        <form action="teacher_login.php" method="POST" class='loginForm'>
+            <input class="centered"  type="text" placeholder="Име..." required name="username">
+            <input class="centered"  type="password" placeholder="Парола..." required name="pass">
+            <input class="submit-btn" type="submit" value="Вход">
+        </form>
+            
+    </div>
+   
+</body>
+</html>
